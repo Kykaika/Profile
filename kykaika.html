@@ -1,0 +1,33 @@
+<html>
+ <head>
+   <title>Kykaika</title>
+  <style>
+	.overlay {width: 100%; height:100%; display:block;}
+	#kykaikaDiv {
+		top: 0; bottom: 0; left: 0; right: 0;
+		position: fixed;
+		overflow: hidden;
+	}
+	#nubexVideo {
+		top: 0; left: 0;
+		position: absolute;
+		width: auto; height: auto;
+		min-width: 100%; 
+		min-height: 100%; 
+	}
+  </style>
+
+ </head>
+
+
+ <body>
+
+	<div id="kykaikaDiv" class="overlay">
+ 	 <video id="Kykaika" width="100%" height="auto" loop="loop" autoplay="autoplay" controls preload="auto">
+   		<source src="morty.mp4"></source>
+   		<source src="nubex.webm" type="video/webm"></source>
+ 	 </video>
+	</div>
+
+ </body>
+</html>
